@@ -5,7 +5,6 @@ function App() {
   const [count, setCount] = useState(0);
 
   const increase = () => {
-    let unusedVar="muds"
     setCount((prevCount) => prevCount + 1)
   };
 

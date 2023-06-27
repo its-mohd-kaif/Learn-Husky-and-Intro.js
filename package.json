@@ -46,5 +46,12 @@
       "pre-commit": "lint-staged",
       "pre-push": "npm test"
     }
+  },
+  "lint-staged": {
+    "*.{js,jsx,json,css,scss,md}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
   }
 }
