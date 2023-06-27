@@ -6,7 +6,6 @@ function App() {
 
   const increase = () => {
     setCount((prevCount) => prevCount + 1);
-    console.log("Increase button clicked");
   };
 
   const decrease = () => {
