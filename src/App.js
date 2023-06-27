@@ -30,7 +30,7 @@ function App() {
   };
 
   const decrease = () => {
-    setCount((prevCount) => prevCount - 1);
+    setCount((prevCount) => prevCount - 1)
   };
 
   const reset = () => setCount(0);
