@@ -5,9 +5,8 @@ function App() {
   const [count, setCount] = useState(0);
 
   const increase = () => {
-    const unusedVariable = "I am unused!";
     setCount((prevCount) => prevCount + 1);
-    console.log("Increase button clicked!");
+    console.log("Increase button clicked");
   };
 
   const decrease = () => {
