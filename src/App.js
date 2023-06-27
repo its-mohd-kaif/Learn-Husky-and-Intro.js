@@ -10,7 +10,6 @@ function App() {
 
   const decrease = () => {
     setCount((prevCount) => prevCount - 1);
-    console.log("For - one")
   };
 
   const reset = () => setCount(0);
