@@ -6,6 +6,7 @@ function App() {
 
   const increase = () => {
     setCount((prevCount) => prevCount + 1);
+    console.log("For Plus One")
   };
 
   const decrease = () => {
@@ -13,6 +14,7 @@ function App() {
   };
 
   const reset = () => setCount(0);
+
   return (
     <div className="counter">
       <p className="title">Learn Husky & Intro Js</p>
